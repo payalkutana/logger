@@ -8,7 +8,7 @@ setup(
   author = 'payal kutana',                   
   author_email = 'kutanapayal@gmail.com',    
   url = 'https://github.com/payalkutana/logger/',  
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',   
+  download_url = 'https://github.com/payalkutana/logger/archive/v_01.tar.gz',   
   keywords = ['logger','logging','logs'],   
   
   classifiers=[
