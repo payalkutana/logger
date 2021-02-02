@@ -1,4 +1,4 @@
-# logger - - The simplest Python logging out there!
+# logger - The simplest Python logging out there!
 
 With logger, you can track events that happen when software runs with just one line of code. logger is super easy to use and handles everything for you. Just specify log filename , message that you want to pass ,level(importance which developer ascribes to the event;), and format of logs(which is totally Optional) and the rest is done for you.
 
@@ -23,11 +23,11 @@ it will print the message on console.
 
 loggerClass.WritetoScreen(loggerClass,logging.INFO,"testing...",'%(levelname)s:%(message)s')
 
-logging.INFO--> level or severity of events they are used to track
+--> logging.INFO - level or severity of events they are used to track
 
-"testing..."--> Message
+--> "testing..." - Message
 
-'%(levelname)s:%(message)s'--> specify the order, structure, and content of the log message.
+--> '%(levelname)s:%(message)s' - specify the order, structure, and content of the log message.
 
 
 # Write Log onFile
@@ -36,13 +36,13 @@ it will store the message in logFile.
 
 loggerClass.Writetofile(loggerClass,'sample.log',logging.WARNING,"testing...",'%(asctime)s:%(levelname)s:%(message)s')
 
-'sample.log' --> Log Filename 
+--> 'sample.log' - Log Filename 
 
-logging.WARNING--> level or severity of events they are used to track
+--> logging.WARNING - level or severity of events they are used to track
 
-"testing..."--> Message
+--> "testing..." - Message
 
-'%(asctime)s:%(levelname)s:%(message)s'--> specify the order, structure, and content of the log message.
+--> '%(asctime)s:%(levelname)s:%(message)s' - specify the order, structure, and content of the log message.
 
 # License
 MIT License
