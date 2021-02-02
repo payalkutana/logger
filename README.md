@@ -30,7 +30,7 @@ loggerClass.WritetoScreen(loggerClass,logging.INFO,"testing...",'%(levelname)s:%
 --> '%(levelname)s:%(message)s' - specify the order, structure, and content of the log message.
 
 
-# Write Log onFile
+
 
 it will store the message in logFile.
 
