@@ -24,7 +24,9 @@ it will print the message on console.
 loggerClass.WritetoScreen(loggerClass,logging.INFO,"testing...",'%(levelname)s:%(message)s')
 
 logging.INFO--> level or severity of events they are used to track
+
 "testing..."--> Message
+
 '%(levelname)s:%(message)s'--> specify the order, structure, and content of the log message.
 
 
@@ -35,8 +37,11 @@ it will store the message in logFile.
 loggerClass.Writetofile(loggerClass,'sample.log',logging.WARNING,"testing...",'%(asctime)s:%(levelname)s:%(message)s')
 
 'sample.log' --> Log Filename 
+
 logging.WARNING--> level or severity of events they are used to track
+
 "testing..."--> Message
+
 '%(asctime)s:%(levelname)s:%(message)s'--> specify the order, structure, and content of the log message.
 
 # License
