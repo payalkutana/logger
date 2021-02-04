@@ -1,4 +1,4 @@
-from  logging_logger import loggerClass
+from  loggerClass import loggerClass
 
 loggerClass.WritetoScreen(loggerClass,logging.INFO,"testing...",
             '%(levelname)s:%(message)s')
